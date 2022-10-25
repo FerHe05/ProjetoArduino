@@ -8,66 +8,53 @@ if (!isset($_SESSION["user"])) //se a sessão "user" n for iniciado
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"  crossorigin="anonymous">
-    <link href="menu_style.css" rel="stylesheet"/>
-    <title>Menu</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link href="menu_style.css" rel="stylesheet"/>
+  <title>Document</title>
 </head>
 <body>
-<nav class id="navbar">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" >EnergyCalc</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Perfil<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Histórico</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Ajuda</a>
-      </li>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Corrente</td>
+      <td>Valor A</td>
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Tensão</td>
+      <td>Valor V</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Potência</td>
+      <td>Valor W</td>
       
-    </ul>
-  </div>
-</nav>
-<br/>
-<center><h1>Medidor de Energia</h1></center>
-<br/>
-<br/>
-<table id="customers">
-
-<tr>
-        <th>Grandezas</th>
-        <th>Valores</th>
-    
-    </tr> 
-   <tr>
-       <th>Potência: </th>
-       <td>1000</td>
-   </tr>
-   <tr>
-       <th>Corrente: </th>
-       <td>22</td>
-   </tr>
-   <tr>
-       <th>Tensão: </th>
-       <td>1000</td>
-   </tr>
-   <tr>
-       <th>Gasto: </th>
-       <td>22</td>
-
-   </tr>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Total</td>
+      <td>Valor R$</td>
+      
+    </tr>
+  </tbody>
 </table>
 </body>
 </html>
