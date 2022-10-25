@@ -30,11 +30,10 @@
         <h3>Desenvolvido por TET 14</h3>
         <h4>Alunos:</h4>
         <h5>Anderson Diniz</h5>
-        <h5>Cátia</h5>
+        <h5>Cátia Santos</h5>
         <h5>Fernando Henrique</h5>
         <h5>Nathan Vitor</h5>
         <h5>Raimundo</h5>
-
       </div>
     </section>
 
