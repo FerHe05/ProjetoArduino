@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Energy Calc</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'><link rel="stylesheet" href="./style.css">
-<link href="index_style.css" rel="stylesheet"/>
+<link href="index2_style.css" rel="stylesheet"/>
 </head>
 <body>
 <!-- partial:index.partial.html -->
