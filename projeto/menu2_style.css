@@ -1,0 +1,29 @@
+body{
+    background-color: #2d3b55;
+}
+.nav{
+    color: black;
+}
+.table{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    border: 3px solid #ffffff;
+    color: #5d5d5d;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #efeeee;
+    text-align: center;
+    table-layout: fixed;
+    height: 100px;
+    transition: height 0.4s;
+    /*propriedade desejada*/
+      max-width: 800px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      transition: all ease 0.7s;
+      margin-top: 200px;/*distancia da margem top*/
+      margin-left: 560px;/*distancia da margem esquerda*/
+      
+}
+

@@ -15,12 +15,12 @@ if (!isset($_SESSION["user"])) //se a sessão "user" n for iniciado
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <link href="menu_style.css" rel="stylesheet"/>
+  <link href="menu2_style.css" rel="stylesheet"/>
   <title>EnergyCalc</title>
 </head>
 <body>
   <!-- Image and text -->
+  
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="menu.php">
     <img src="imagens/imglogo.jpg" width="40" height="40">
@@ -47,7 +47,6 @@ if (!isset($_SESSION["user"])) //se a sessão "user" n for iniciado
     </tr>
   </tbody>
 </table>
-
 
   </tbody>
 </table>
