@@ -21,16 +21,13 @@ if (!isset($_SESSION["user"])) //se a sessão "user" n for iniciado
   <title>Document</title>
 </head>
 <body>
-<div class="navbar">
-  <!-- Image and text -->
+<!-- Image and text -->
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="menu.php">
-    <img src="imagens/imglogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img src="imagens/imglogo.jpg" width="40" height="40">
     EnergyCalc
   </a>
 </nav>
-</div>
-
 <table class="table">
   <thead>
     <tr>
