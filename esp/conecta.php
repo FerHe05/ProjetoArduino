@@ -1,8 +1,8 @@
 <?php
-    $servidor = "localhost";
-    $usuario = "root";
-    $senha = "";
-    $dbname = "tds08";
+    $servidor = "34.69.90.105";
+    $usuario = "senaictm";
+    $senha = "senaictm";
+    $dbname = "equipe_rafael";
     
     //Criar a conexao
     $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
